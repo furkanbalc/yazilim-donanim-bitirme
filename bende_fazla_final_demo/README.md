@@ -1,16 +1,16 @@
-# bende_fazla_final
+# Bende Fazla Projesi
 
-A new Flutter project.
+Bu proje, Flutter ve Firebase kullanılarak geliştirilmiş bir uygulamadır. 
 
-## Getting Started
+## Kullanılan Teknolojiler
 
-This project is a starting point for a Flutter application.
+- **Firebase Authentication:** Kullanıcı kimlik doğrulama işlemleri için Firebase Authentication kullanıldı.
+- **Firebase Firestore:** Kullanıcı bilgilerini depolamak için kullanıldı.
+- **Firebase Storage:** Firebase Storage, dosya depolama ihtiyaçları için kullanıldı.
+- **Flutter MVVM Mimarisine Bağlılık:** Projede MVVM (Model-View-ViewModel) mimarisine uyulmaya çalışıldı, bu da kodun düzenli ve yönetilebilir olmasını sağlar.
+- **Shared Preferences:** Basit verilerin depolanması için Shared Preferences kullanıldı.
+- **State Management:** Vanilla (temel) state yönetimi ve ağırlıklı olarak Provider kullanıldı. Bu, uygulama durumunu yönetmek için tercih edilen yöntemlerden bazılarıdır.
 
-A few resources to get you started if this is your first Flutter project:
+## Proje Hakkında
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Proje, fazla eşyaları paylaşma ve israfı önleme amacıyla geliştirilmiştir. Kullanıcılar, paylaşmak istedikleri eşyaları diğer kullanıcılarla paylaşabilir veya ihtiyaç duydukları şeyleri bulabilirler.
